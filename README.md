@@ -16,7 +16,7 @@
 
 ※ このプロジェクトは継続的に更新されます。
 
-#Mermaid
+# Mermaid
 
 ```md
 ```mermaid
