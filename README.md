@@ -17,7 +17,6 @@
 ※ このプロジェクトは継続的に更新されます。
 
 # Mermaid
-
 ```md
 ```mermaid
 graph LR
