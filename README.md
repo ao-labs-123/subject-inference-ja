@@ -16,7 +16,10 @@
 
 ※ このプロジェクトは継続的に更新されます。
 
-# ```mermaid
+#Mermaid
+
+```md
+```mermaid
 graph LR
     A[対話AIの誤読防止エンジン] --> B[多言語文脈モデル]
     B --> C[IME 統合]
