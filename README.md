@@ -2,10 +2,11 @@
   - 🇯🇵 [日本語版]
   - 🇺🇸 [English version]
 
-### Implementations
-- Step 1:  
-  - 🇯🇵 [日本語版](docs/jp/implementation_step1.md)  
-  - 🇺🇸 [English version](docs/en/implementation_step1.md)
+## Improvement Stages
+- Stage 1: Speaker Identification (First-Person Omission)
+- Stage 2: Clarification-Based Misinterpretation Prevention
+  - [Japanese](docs/jp/stage2_clarification.md)
+  - [English](docs/en/stage2_clarification.md)
 
 ## Roadmap
 - Step 1: 誤読解消の基本モデル（実装中）
