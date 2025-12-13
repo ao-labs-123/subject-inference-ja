@@ -5,7 +5,7 @@
 ## Improvement Stages
 - Stage 1: Speaker Identification (First-Person Omission)
 - Stage 2: Clarification-Based Misinterpretation Prevention
-  - [Japanese](subject-inference-ja/docs/jp/stage2_design.md.)
+  - [Japanese](https://github.com/ao-labs-123/subject-inference-ja/tree/main.)
   - [English](docs/en/stage2_design.md)
 
 ## Roadmap
