@@ -15,7 +15,7 @@ By codifying this linguistic pattern, the model can reduce misreadings and incre
 → Those imply second or third person, not the speaker.
 	3.	This rule significantly reduces ambiguity in Japanese dialogue and is foundational for later stages of the system.
 
-Example:
+◇Example:
 	•	「変だと思った。」
 → The subject is the speaker.
 	•	「彼が変だと思ったらしい。」
