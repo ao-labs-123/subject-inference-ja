@@ -19,7 +19,7 @@ leading to frequent misinterpretations.
 	•	Generate clarification questions when multiple subject candidates exist
 	•	Prioritize confirmation over probabilistic inference
 
-Example
+◇Example
 User input:
 
 “Yesterday was really tough.”
