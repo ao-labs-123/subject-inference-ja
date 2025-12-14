@@ -32,3 +32,31 @@ AI response:
 	•	Significant reduction of misinterpretation
 	•	More faithful understanding of user intent
 	•	Applicability to high-stakes domains such as healthcare, legal consultation, and fraud prevention
+
+
+Reference Implementation (Python)
+
+◇Overview
+
+This module implements Stage 2, which prevents premature interpretation when a sentence contains an omitted or ambiguous subject.
+
+Instead of inferring the most likely meaning, the system:
+	•	detects ambiguity,
+	•	defers interpretation,
+	•	and asks a minimal clarification question.
+
+⸻
+
+◇Core Concepts
+	•	No guessing: probabilistic inference is suppressed at this stage
+	•	Ambiguity-aware: multiple subject candidates are preserved
+	•	Confirmation-first: user clarification is required before advancing
+	
+◇Module Structure
+src/
+ └── stage2/
+     ├── detector.py        # ambiguity & subject detection
+     ├── clarifier.py       # clarification question generation
+     ├── state.py           # interpretation holding state
+     └── stage2.py          # orchestration logic
+
