@@ -52,3 +52,48 @@ Instead of inferring the most likely meaning, the system:
 	•	Ambiguity-aware: multiple subject candidates are preserved
 	•	Confirmation-first: user clarification is required before advancing
 
+◇Design Notes
+	•	This implementation does not resolve meaning
+	•	It does not perform causal or syntactic analysis
+	•	It only determines whether interpretation is safe to proceed
+
+◇Later stages are responsible for:
+	•	causal reasoning
+	•	modifier attachment
+	•	semantic role inference
+
+⸻
+
+◇Extensibility
+
+This stage can be extended to:
+	•	speech-to-text systems
+	•	TTS read-aloud disambiguation
+	•	safety-critical conversational agents
+
+⸻
+
+◇Explicit Non-Goals
+	•	Maximizing recall via guessing
+	•	Statistical subject selection
+	•	Confidence-based inference
+
+⸻
+
+◇License Notice
+
+This reference implementation is designed for:
+	•	research
+	•	education
+	•	safety-oriented system design
+
+Commercial usage should consider downstream responsibility handling.
+
+⸻
+
+🇯🇵 補足（日本語）
+
+このコードは 「実用最小構成」 です。
+	•	NLP 部分は意図的に未完成
+	•	重要なのは「推測しない制御フロー」
+	•	精度ではなく 誤読しない設計 を示すための実装
