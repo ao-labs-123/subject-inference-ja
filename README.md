@@ -5,7 +5,7 @@
 ## Improvement Stages
 - Stage 1: Speaker Identification (First-Person Omission)
 - Stage 2: Clarification-Based Misinterpretation Prevention
-- Stage 2 prevents misinterpretation by deferring inference and requesting clarification.
+Stage 2 prevents misinterpretation by deferring inference and requesting clarification.
 
   - [Japanese](https://github.com/ao-labs-123/subject-inference-ja/tree/main.)
   - [English](docs/en/stage2_design.md)
