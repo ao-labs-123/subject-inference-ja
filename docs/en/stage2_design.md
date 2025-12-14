@@ -53,6 +53,7 @@ Instead of inferring the most likely meaning, the system:
 	•	Confirmation-first: user clarification is required before advancing
 	
 ◇Module Structure
+
 src/
  └── stage2/
      ├── detector.py        # ambiguity & subject detection
