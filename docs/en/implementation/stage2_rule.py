@@ -34,3 +34,26 @@ These processes are intentionally deferred to later stages.
 	•	generate a clarification question
 	4.	Await user confirmation before passing the input to the next stage
 
+◇Example
+
+User Input
+Yesterday was really tough.
+
+System Response
+Are you referring to something that happened to you personally?
+
+◇Expected Benefits
+	•	Significant reduction of misinterpretation
+	•	Improved faithfulness to user intent
+	•	Applicability to high-stakes domains such as:
+	•	healthcare
+	•	legal consultation
+	•	fraud prevention
+
+⸻
+
+◇Scope Limitation
+
+This implementation intentionally avoids heuristic guessing, even when statistical likelihood appears high.
+
+Accuracy is defined as correctness after confirmation, not prediction confidence.
