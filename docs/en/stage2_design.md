@@ -51,13 +51,4 @@ Instead of inferring the most likely meaning, the system:
 	•	No guessing: probabilistic inference is suppressed at this stage
 	•	Ambiguity-aware: multiple subject candidates are preserved
 	•	Confirmation-first: user clarification is required before advancing
-	
-◇Module Structure
-
-src/
- └── stage2/
-     ├── detector.py        # ambiguity & subject detection
-     ├── clarifier.py       # clarification question generation
-     ├── state.py           # interpretation holding state
-     └── stage2.py          # orchestration logic
 
