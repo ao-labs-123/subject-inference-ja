@@ -5,6 +5,7 @@
 ## Improvement Stages
 - Stage 1: Speaker Identification (First-Person Omission)
 - Stage 2: Clarification-Based Misinterpretation Prevention
+- Stage 3: Contextual and Causal Inference
 
 Stage 2 prevents misinterpretation by deferring inference and requesting clarification.
 
