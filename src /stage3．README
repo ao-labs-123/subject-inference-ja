@@ -1,0 +1,13 @@
+実装上のポイント
+
+🇯🇵 日本語
+	•	本コードは 因果関係推定の最小構成モデル
+	•	深層学習に依存せず、構造的推論が可能
+	•	confidence により「断定しないAI」を実現
+	•	Stage4（修飾構造）・Stage5（聞き返し制御）へ安全に接続可能
+
+🇺🇸 English
+	•	Minimal reference implementation for causal inference
+	•	Does not rely on deep learning
+	•	Confidence-based output prevents premature conclusions
+	•	Designed to integrate with later stages safely
