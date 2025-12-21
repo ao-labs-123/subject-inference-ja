@@ -15,6 +15,7 @@
 ◇Mermaid Diagram
 mermaid
 flowchart TD
+
     A[User Input Text] --> B[Event Extraction]
 
     B --> C[Event List]
