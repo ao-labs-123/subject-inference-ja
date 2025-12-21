@@ -7,11 +7,6 @@
 - Stage 2: Clarification-Based Misinterpretation Prevention
 Stage 2 prevents misinterpretation by deferring inference and requesting clarification.
 - Stage 3: Contextual and Causal Inference
-	•	Minimal reference implementation for causal inference
-	•	Does not rely on deep learning
-	•	Confidence-based output prevents premature conclusions
-	•	Designed to integrate with later stages safely
-
 
   - [Japanese](https://github.com/ao-labs-123/subject-inference-ja/tree/main.)
   - [English](docs/en/stage2_design.md)
