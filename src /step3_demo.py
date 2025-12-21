@@ -1,3 +1,5 @@
+Stage 3 – Causal Relationship Inference
+
 from typing import List, Dict, Tuple
 from dataclasses import dataclass
 
@@ -99,3 +101,16 @@ class CausalInferenceEngine:
             relations.append(relation)
 
         return relations
+
+Example Usage
+if __name__ == "__main__":
+    engine = CausalInferenceEngine()
+
+    text = "雨が降っていた、道が滑りやすかった、転んだ"
+    results = engine.infer(text)
+
+    for r in results:
+        print(
+            f"CAUSE: {r.cause.description} -> EFFECT: {r.effect.description} "
+            f"(confidence={r.confidence}, confirmed={r.is_confirmed})"
+        )
