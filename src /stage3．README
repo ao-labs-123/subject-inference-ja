@@ -13,9 +13,8 @@
 	•	Designed to integrate with later stages safely
 
 ◇Mermaid Diagram
-mermaid
-flowchart TD
 
+flowchart TD
     A[User Input Text] --> B[Event Extraction]
 
     B --> C[Event List]
