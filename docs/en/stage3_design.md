@@ -1,20 +1,20 @@
 Stage 3: Contextual and Causal Inference
 
-◇Overview
+## Overview
 At this stage, the AI performs causal and contextual inference only after ambiguity in subject and reference has been resolved in earlier stages.
 The goal is to infer why an event occurred and how multiple pieces of information are related, without prematurely committing to incorrect causal interpretations.
 
-◇Problem
+## Problem
 Conventional dialogue AI systems often infer causality based on surface-level probability, even when contextual grounding is insufficient.
 This can lead to incorrect assumptions about responsibility, intention, or emotional state.
 
-◇Approach
+## Approach
 	•	Perform causal inference only after subject and reference clarity is ensured
 	•	Distinguish between causes, results, conditions, and coincidental correlations
 	•	Infer temporal and logical relationships between events
 	•	Avoid over-attribution of intent or responsibility when evidence is weak
 
-◇Example
+## Example
 User input:
 
 “I was late because the train stopped.”
@@ -25,7 +25,7 @@ AI interpretation:
 	•	Inferred causal relationship: A → B
 	•	No assumption beyond what is explicitly supported by context
 
-◇Expected Benefits
+## Expected Benefits
 	•	More accurate understanding of user intent and experience
 	•	Reduced risk of incorrect causal attribution
 	•	High applicability to healthcare, legal consultation, and safety-critical domains
