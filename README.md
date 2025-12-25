@@ -8,16 +8,6 @@ AI の誤読をシンプルなロジックで減らすことを目指してい�
 - [第1段階 改善案 (日本語)](docs/jp/stage1_design.md)
 - 第2〜5段階：近日公開
 
-## 言語
-  - 🇯🇵 [日本語版]
-  - 🇺🇸 [English version]
-
-## Improvement Stages
-- Stage 1: Speaker Identification (First-Person Omission)
-- Stage 2: Clarification-Based Misinterpretation Prevention
-Stage 2 prevents misinterpretation by deferring inference and requesting clarification.
-- Stage 3: Contextual and Causal Inference
-
   - [Japanese](docs/jp/stage2_design.md)
   - [English](docs/en/stage2_design.md)
 
