@@ -1,46 +1,58 @@
-A research project to reduce AI misinterpretation caused by Japanese subject omission.
+Project Title
 
-## Background
-Japanese frequently omits subjects, relying heavily on context for meaning.
-As a result, dialogue AI systems often infer subjects or intentions with high probability
-even when contextual information is insufficient, leading to premature and incorrect interpretations.
+A Contextual and Structural Approach to Misinterpretation Reduction in Conversational AI
 
-While traditional morphological and syntactic analysis tools are effective at extracting
-linguistic structures, they are not designed to determine when interpretation itself
-should be deferred due to ambiguity or lack of context.
+⸻
 
-This project addresses this gap by introducing a pre-inference safety mechanism
-that prevents early semantic commitment,
-thereby improving the reliability and robustness of dialogue AI systems.
+Background
 
-## Objective
-The objective of this project is to prevent premature semantic commitment
-in dialogue AI systems when contextual information is insufficient.
+Most existing conversational AI systems rely heavily on morphological analysis and statistical methods.
+While effective for surface-level accuracy, these approaches often fail to capture
+sentence structure, causal relationships, and modifier dependencies, leading to misinterpretation.
 
-Focusing on subject omission and ambiguity in Japanese,
-this project proposes and implements a design in which the AI
-prioritizes minimal clarification and structural judgment
-over probabilistic inference.
+This limitation affects not only conversational AI, but also machine translation, IME, OCR, and speech systems.
 
-The ultimate goal is to establish a foundation for dialogue AI
-that minimizes misinterpretation, particularly in high-stakes domains
-such as healthcare, legal consultation, and fraud prevention.
+⸻
 
-## Approach
-This project models conversational understanding
-as a multi-stage process, including:
-	•	Context validation
-	•	Intent estimation
-	•	Causal relationship analysis
-	•	Structural and modifier parsing
-	•	Minimal, targeted clarification when necessary
+Objective
 
-This design aims to prevent misinterpretation
-before it occurs.
+This project aims to propose and implement an approach that enables AI systems to
+understand sentences as structured meanings rather than isolated tokens,
+thereby reducing misinterpretation in human-AI interaction.
 
-## Scope / Limitation
-	•	This project focuses on conceptual design and baseline implementation
-	•	It is model-agnostic and framework-independent
-	•	It does not replace legal or final human decision-making
-	•	Zero misinterpretation is not guaranteed
+⸻
+
+Approach
+
+The system adopts a staged improvement model, including:
+	•	Clarification of contextual assumptions
+	•	Minimal and strategic clarification questions
+	•	Causal relationship inference
+	•	Structural and grammatical dependency analysis
+	•	Final intent determination
+
+This approach complements traditional NLP techniques while improving
+semantic and grammatical understanding.
+
+⸻
+
+Scope / Limitation
+
+Scope
+	•	Conversational AI misinterpretation reduction
+	•	Potential applications in MT, IME, OCR, and speech systems
+
+Limitation
+	•	Not intended for legal or ethical final judgments
+	•	Designed to assist, not replace, human decision-making
+
+⸻
+
+Example Use Cases
+	•	Improved clarification in conversational AI
+	•	Scam and phishing attempt mitigation
+	•	Reduced semantic drift in machine translation
+	•	Context-aware IME and speech input
+
+See docs/ for detailed documentation.
 
