@@ -1,6 +1,6 @@
 Code Example
 
-◇state.py
+state.py
 from typing import List, Optional
 
 class InterpretationState:
@@ -9,7 +9,7 @@ class InterpretationState:
         self.confirmed_subject: Optional[str] = None
         self.is_ambiguous: bool = False
 
-◇detector.py
+detector.py
 def detect_subject_ambiguity(text: str) -> list[str]:
     """
     Detects potential subject candidates.
@@ -22,19 +22,19 @@ def detect_subject_ambiguity(text: str) -> list[str]:
 
     return []
 
-◇clarifier.py
+clarifier.py
 def generate_clarification(candidates: list[str]) -> str:
     """
     Generates a minimal clarification question.
     """
 
-◇stage2.py
+stage2.py
     if "user" in candidates:
         return "Are you referring to something that happened to you personally?"
 
     return "Could you clarify who or what you are referring to?"
 
-◇Example Execution
+Example Execution
 input_text = "Yesterday was really tough."
 
 result = process_stage2(input_text)
@@ -42,6 +42,6 @@ result = process_stage2(input_text)
 print(result["status"])
 print(result["question"])
 
-◇Output
+Output
 clarification_required
 Are you referring to something that happened to you personally?
