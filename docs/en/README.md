@@ -27,3 +27,6 @@ not semantic inference.
 ## Status
 - Design: Stable
 - Implementation: Reference / Experimental
+
+## License
+MIT  
