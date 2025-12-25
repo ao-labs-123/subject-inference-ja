@@ -1,4 +1,4 @@
-# 🧭 Project Roadmap
+#  Project Roadmap
 
 This roadmap outlines the planned development stages for creating a **Misinterpretation-Free Conversational AI**, along with additional modules such as IME improvement, multilingual translation support, safety detection, and daily-use AI utilities.
 
@@ -6,7 +6,7 @@ The project evolves in clear multi-stage phases to ensure transparency, reproduc
 
 ---
 
-## 🚀 Phase 1 — Core Misinterpretation-Free Engine (Current Phase)
+##  Phase 1 — Core Misinterpretation-Free Engine (Current Phase)
 **Goal:** Build the foundational logic that prevents misunderstanding in human–AI communication.
 
 ### Tasks
@@ -16,11 +16,11 @@ The project evolves in clear multi-stage phases to ensure transparency, reproduc
 - Publish baseline implementation  
 - Open API specification
 
-**Status:** 🟢 In progress
+**Status:**  In progress
 
 ---
 
-## 🚀 Phase 2 — Multilingual Expansion
+##  Phase 2 — Multilingual Expansion
 **Goal:** Extend the engine to support multilingual scenarios and cross-lingual ambiguity detection.
 
 ### Tasks
@@ -33,7 +33,7 @@ The project evolves in clear multi-stage phases to ensure transparency, reproduc
 
 ---
 
-## 🚀 Phase 3 — Input System Integration (IME Module)
+##  Phase 3 — Input System Integration (IME Module)
 **Goal:** Reduce misinterpretation starting at the *input layer*.
 
 ### Tasks
@@ -46,7 +46,7 @@ The project evolves in clear multi-stage phases to ensure transparency, reproduc
 
 ---
 
-## 🚀 Phase 4 — Safety, Fraud, and Abuse Detection
+##  Phase 4 — Safety, Fraud, and Abuse Detection
 **Goal:** Build models that detect:
 - online harassment,  
 - misinformation,  
@@ -64,7 +64,7 @@ The project evolves in clear multi-stage phases to ensure transparency, reproduc
 
 ---
 
-## 🚀 Phase 5 — Daily Utility AI Integration
+##  Phase 5 — Daily Utility AI Integration
 **Goal:** Integrate the core engine into daily-use applications.
 
 ### Modules
@@ -78,7 +78,7 @@ The project evolves in clear multi-stage phases to ensure transparency, reproduc
 
 ---
 
-## 🚀 Phase 6 — Community & Open Development
+##  Phase 6 — Community & Open Development
 **Goal:** Encourage global contributors to participate.
 
 ### Tasks
@@ -102,6 +102,6 @@ A conversational AI ecosystem where:
 
 ---
 
-## 💬 Contribution
+##  Contribution
 We welcome contributions from developers, linguists, researchers, and anyone interested.  
 Feel free to open issues, submit PRs, or watch the repository for updates!
