@@ -8,7 +8,7 @@
 Stage 2 prevents misinterpretation by deferring inference and requesting clarification.
 - Stage 3: Contextual and Causal Inference
 
-  - [Japanese](docs/jp/stage2_design.md）
+  - [Japanese](docs/jp/stage2_design.md)
   - [English](docs/en/stage2_design.md)
 
 ## Roadmap
