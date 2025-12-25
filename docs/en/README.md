@@ -23,3 +23,7 @@ This repository presents a clarification-based mechanism designed to
 prevent premature commitment to incorrect interpretations in dialogue AI.
 Stage 2 focuses on ambiguity detection and minimal clarification,
 not semantic inference.
+
+## Status
+- Design: Stable
+- Implementation: Reference / Experimental
