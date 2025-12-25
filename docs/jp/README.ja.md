@@ -1,4 +1,4 @@
-##　Project Title
+## Project Title
 
 対話AIにおける誤読解消のための文脈・構造理解アプローチ
 
