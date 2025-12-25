@@ -30,6 +30,9 @@ AI interpretation:
 	•	Reduced risk of incorrect causal attribution
 	•	High applicability to healthcare, legal consultation, and safety-critical domains
 
+
+
+## Implementation points
 	•	Minimal reference implementation for causal inference
 	•	Does not rely on deep learning
 	•	Confidence-based output prevents premature conclusions
