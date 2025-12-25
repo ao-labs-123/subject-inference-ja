@@ -1,10 +1,10 @@
-Project Title
+##　Project Title
 
 対話AIにおける誤読解消のための文脈・構造理解アプローチ
 
 ⸻
 
-Background（背景）
+##　Background（背景）
 
 既存の対話AIは、形態素解析や統計的手法を中心に発展してきましたが、
 文全体の構造や因果関係、修飾関係を十分に理解できず、
@@ -15,7 +15,7 @@ Background（背景）
 
 ⸻
 
-Objective（目的）
+##　Objective（目的）
 
 本プロジェクトは、
 文を単なる語の集合として扱うのではなく、構造と意味の関係として理解する
@@ -23,7 +23,7 @@ Objective（目的）
 
 ⸻
 
-Approach（アプローチ）
+##　Approach（アプローチ）
 
 本研究では、以下の段階的改善モデルを採用します。
 	•	文脈の前提条件の明示
@@ -37,7 +37,7 @@ Approach（アプローチ）
 
 ⸻
 
-Scope / Limitation（適用範囲・制約）
+##　Scope / Limitation（適用範囲・制約）
 
 Scope
 	•	対話AIの誤読解消
@@ -49,7 +49,7 @@ Limitation
 
 ⸻
 
-Example Use Cases（適用例）
+##　Example Use Cases（適用例）
 	•	対話AIの聞き返し精度向上
 	•	詐欺・迷惑メッセージの未然防止
 	•	多言語翻訳時の意味ずれ低減
