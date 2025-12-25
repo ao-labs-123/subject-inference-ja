@@ -1,11 +1,5 @@
 A research project to reduce AI misinterpretation caused by Japanese subject omission.
 
-### 📄 Documentation
-- [Stage 1 — Design (English)](docs/en/stage1_design.md)
-- [Stage 2 — Design (English)](docs/en/stage2_design.md)
-- [Stage 3 — Design (English)](docs/en/stage3_design.md)
-- Stage 4–5: Coming soon
-
 ## Background
 Japanese frequently omits subjects, relying heavily on context for meaning.
 As a result, dialogue AI systems often infer subjects or intentions with high probability
