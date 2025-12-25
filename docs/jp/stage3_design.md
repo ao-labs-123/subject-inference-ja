@@ -35,6 +35,29 @@ AIの解釈：
 	•	confidence により「断定しないAI」を実現
 	•	Stage4（修飾構造）・Stage5（聞き返し制御）へ安全に接続可能
 
+
+## Mermaid Diagram
+
+flowchart TD
+    A[User Input Text] --> B[Event Extraction]
+
+    B --> C[Event List]
+    C --> D[Temporal Ordering]
+
+    D --> E[Causal Candidate Generation]
+    E --> F[Causality Evaluation]
+
+    F --> G{Confidence >= Threshold?}
+
+    G -->|Yes| H[Confirmed Causal Relation]
+    G -->|No| I[Unconfirmed / Hypothesis]
+
+    H --> J[Causal Relation Output]
+    I --> J
+
+    J --> K[Next Stage Integration<br/>(Stage4 / Stage5)]
+
+
 ## 図の意図
 	•	入力文から 事象（Event）を分離
 	•	時系列を基準に 因果候補を生成
