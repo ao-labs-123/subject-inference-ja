@@ -1,10 +1,4 @@
-
 日本語の主語省略による誤読を減らすための研究プロジェクトです。
-
-
-## English
-This project aims to reduce AI misinterpretation caused by subject omission in Japanese.
-It provides logic-based rules to help language models infer omitted subjects more accurately.
 
 ## 🇯🇵 日本語
 このプロジェクトは、日本語の「主語が省略されやすい問題」による  
