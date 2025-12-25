@@ -26,7 +26,7 @@ The ultimate goal is to establish a foundation for dialogue AI
 that minimizes misinterpretation, particularly in high-stakes domains
 such as healthcare, legal consultation, and fraud prevention.
 
-##　Approach
+## Approach
 This project models conversational understanding
 as a multi-stage process, including:
 	•	Context validation
@@ -38,4 +38,9 @@ as a multi-stage process, including:
 This design aims to prevent misinterpretation
 before it occurs.
 
+## Scope / Limitation
+	•	This project focuses on conceptual design and baseline implementation
+	•	It is model-agnostic and framework-independent
+	•	It does not replace legal or final human decision-making
+	•	Zero misinterpretation is not guaranteed
 
