@@ -6,19 +6,10 @@ AI の誤読をシンプルなロジックで減らすことを目指してい�
 
 ### 📄 ドキュメント
 - [第1段階 改善案 (日本語)](docs/jp/stage1_design.md)
-- 第2〜5段階：近日公開
-
-  - [Japanese](docs/jp/stage2_design.md)
-  - [English](docs/en/stage2_design.md)
-
-# Subject Inference – Stage 2
-
-## Overview (EN)
-This repository presents a clarification-based mechanism designed to
-prevent premature commitment to incorrect interpretations in dialogue AI.
-Stage 2 focuses on ambiguity detection and minimal clarification,
-not semantic inference.
-
+- [第2段階 改善案 (日本語)](docs/jp/stage2_design.md)
+- [第3段階 改善案 (日本語)](docs/jp/stage3_design.md)
+- 第4〜5段階：近日公開
+  
 ## 概要 (JP)
 本リポジトリは、対話AIにおける誤読の原因となる
 「早期の意味確定」を防ぐための確認機構を提案・実装するものです。
