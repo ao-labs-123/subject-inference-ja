@@ -12,7 +12,7 @@
 	•	Confidence-based output prevents premature conclusions
 	•	Designed to integrate with later stages safely
 
-◇Mermaid Diagram
+## Mermaid Diagram
 
 flowchart TD
     A[User Input Text] --> B[Event Extraction]
@@ -33,7 +33,7 @@ flowchart TD
 
     J --> K[Next Stage Integration<br/>(Stage4 / Stage5)]
 
-◇図の意図
+## 図の意図
 🇯🇵 日本語
 	•	入力文から 事象（Event）を分離
 	•	時系列を基準に 因果候補を生成
