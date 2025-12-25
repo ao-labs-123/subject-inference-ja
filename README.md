@@ -6,6 +6,10 @@ A research project to reduce AI misinterpretation caused by Japanese subject omi
 This project aims to reduce AI misinterpretation caused by subject omission in Japanese.
 It provides logic-based rules to help language models infer omitted subjects more accurately.
 
+### 📄 Documentation
+- [Stage 1 — Design (English)](docs/en/stage1_design.md)
+- Stage 2–5: Coming soon
+
 ## Languages / 言語
   - 🇯🇵 [日本語版]
   - 🇺🇸 [English version]
