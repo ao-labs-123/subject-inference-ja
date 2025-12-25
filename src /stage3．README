@@ -6,7 +6,6 @@
 	•	confidence により「断定しないAI」を実現
 	•	Stage4（修飾構造）・Stage5（聞き返し制御）へ安全に接続可能
 
-🇺🇸 English
 
 ## Mermaid Diagram
 
@@ -43,13 +42,3 @@ flowchart TD
 👉 「誤読しないAI」の中核ロジック
 
 ⸻
-
-🇺🇸 English
-	•	Extracts events from input text
-	•	Generates causal candidates based on temporal order
-	•	Evaluates causality using confidence scoring
-	•	Separates confirmed relations from hypotheses
-	•	Designed for seamless integration with later stages
-
-👉 Core logic for misreading-resistant dialogue AI
-
