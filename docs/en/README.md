@@ -1,10 +1,10 @@
-Project Title
+##　Project Title
 
 A Contextual and Structural Approach to Misinterpretation Reduction in Conversational AI
 
 ⸻
 
-Background
+##　Background
 
 Most existing conversational AI systems rely heavily on morphological analysis and statistical methods.
 While effective for surface-level accuracy, these approaches often fail to capture
@@ -14,7 +14,7 @@ This limitation affects not only conversational AI, but also machine translation
 
 ⸻
 
-Objective
+##　Objective
 
 This project aims to propose and implement an approach that enables AI systems to
 understand sentences as structured meanings rather than isolated tokens,
@@ -22,7 +22,7 @@ thereby reducing misinterpretation in human-AI interaction.
 
 ⸻
 
-Approach
+##　Approach
 
 The system adopts a staged improvement model, including:
 	•	Clarification of contextual assumptions
@@ -36,7 +36,7 @@ semantic and grammatical understanding.
 
 ⸻
 
-Scope / Limitation
+##　Scope / Limitation
 
 Scope
 	•	Conversational AI misinterpretation reduction
@@ -48,7 +48,7 @@ Limitation
 
 ⸻
 
-Example Use Cases
+##　Example Use Cases
 	•	Improved clarification in conversational AI
 	•	Scam and phishing attempt mitigation
 	•	Reduced semantic drift in machine translation
