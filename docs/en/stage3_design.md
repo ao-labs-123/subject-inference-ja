@@ -36,5 +36,14 @@ AI interpretation:
 	•	Designed to integrate with later stages safely
 
 	
+	•	Extracts events from input text
+	•	Generates causal candidates based on temporal order
+	•	Evaluates causality using confidence scoring
+	•	Separates confirmed relations from hypotheses
+	•	Designed for seamless integration with later stages
+
+👉 Core logic for misreading-resistant dialogue AI
+
+
 
 
