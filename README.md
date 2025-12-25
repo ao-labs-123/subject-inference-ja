@@ -32,6 +32,27 @@ Stage 2 prevents misinterpretation by deferring inference and requesting clarifi
   - [Japanese](docs/jp/stage2_design.md)
   - [English](docs/en/stage2_design.md)
 
+# Subject Inference – Stage 2
+
+## Overview (EN)
+This repository presents a clarification-based mechanism designed to
+prevent premature commitment to incorrect interpretations in dialogue AI.
+Stage 2 focuses on ambiguity detection and minimal clarification,
+not semantic inference.
+
+## 概要 (JP)
+本リポジトリは、対話AIにおける誤読の原因となる
+「早期の意味確定」を防ぐための確認機構を提案・実装するものです。
+Stage 2 では意味推論は行わず、主語不明・曖昧性に対する
+最小限の聞き返しのみを行います。
+
+## Status
+- Design: Stable
+- Implementation: Reference / Experimental
+
+## License
+MIT
+
 ## Roadmap
 - Step 1: 誤読解消の基本モデル（実装中）
 - Step 2: 文脈推定の高度化（予定）
