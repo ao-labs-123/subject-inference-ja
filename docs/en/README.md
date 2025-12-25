@@ -1,8 +1,4 @@
-# Subject Inference for Japanese (WIP)
 A research project to reduce AI misinterpretation caused by Japanese subject omission.
-
-This project aims to reduce AI misinterpretation caused by subject omission in Japanese.
-It provides logic-based rules to help language models infer omitted subjects more accurately.
 
 ### 📄 Documentation
 - [Stage 1 — Design (English)](docs/en/stage1_design.md)
@@ -22,6 +18,19 @@ should be deferred due to ambiguity or lack of context.
 This project addresses this gap by introducing a pre-inference safety mechanism
 that prevents early semantic commitment,
 thereby improving the reliability and robustness of dialogue AI systems.
+
+## Objective
+The objective of this project is to prevent premature semantic commitment
+in dialogue AI systems when contextual information is insufficient.
+
+Focusing on subject omission and ambiguity in Japanese,
+this project proposes and implements a design in which the AI
+prioritizes minimal clarification and structural judgment
+over probabilistic inference.
+
+The ultimate goal is to establish a foundation for dialogue AI
+that minimizes misinterpretation, particularly in high-stakes domains
+such as healthcare, legal consultation, and fraud prevention.
 
 ## Status
 - Design: Stable
