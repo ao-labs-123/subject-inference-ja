@@ -1,10 +1,15 @@
 # Subject Inference for Japanese (WIP)
 A research project to reduce AI misinterpretation caused by Japanese subject omission.
 日本語の主語省略による誤読を減らすための研究プロジェクトです。
----
+
+
 ## English
 This project aims to reduce AI misinterpretation caused by subject omission in Japanese.
 It provides logic-based rules to help language models infer omitted subjects more accurately.
+
+## 🇯🇵 日本語
+このプロジェクトは、日本語の「主語が省略されやすい問題」による  
+AI の誤読をシンプルなロジックで減らすことを目指しています。
 
 ### 📄 Documentation
 - [Stage 1 — Design (English)](docs/en/stage1_design.md)
