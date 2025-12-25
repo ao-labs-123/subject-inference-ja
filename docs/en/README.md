@@ -25,10 +25,3 @@ over probabilistic inference.
 The ultimate goal is to establish a foundation for dialogue AI
 that minimizes misinterpretation, particularly in high-stakes domains
 such as healthcare, legal consultation, and fraud prevention.
-
-## Status
-- Design: Stable
-- Implementation: Reference / Experimental
-
-## License
-MIT  
