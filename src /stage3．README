@@ -7,10 +7,6 @@
 	•	Stage4（修飾構造）・Stage5（聞き返し制御）へ安全に接続可能
 
 🇺🇸 English
-	•	Minimal reference implementation for causal inference
-	•	Does not rely on deep learning
-	•	Confidence-based output prevents premature conclusions
-	•	Designed to integrate with later stages safely
 
 ## Mermaid Diagram
 
