@@ -25,3 +25,17 @@ over probabilistic inference.
 The ultimate goal is to establish a foundation for dialogue AI
 that minimizes misinterpretation, particularly in high-stakes domains
 such as healthcare, legal consultation, and fraud prevention.
+
+Approach
+This project models conversational understanding
+as a multi-stage process, including:
+	•	Context validation
+	•	Intent estimation
+	•	Causal relationship analysis
+	•	Structural and modifier parsing
+	•	Minimal, targeted clarification when necessary
+
+This design aims to prevent misinterpretation
+before it occurs.
+
+
