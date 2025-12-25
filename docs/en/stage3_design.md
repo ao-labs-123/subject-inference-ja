@@ -30,15 +30,34 @@ AI interpretation:
 	•	Reduced risk of incorrect causal attribution
 	•	High applicability to healthcare, legal consultation, and safety-critical domains
 
-
-
 ## Implementation points
 	•	Minimal reference implementation for causal inference
 	•	Does not rely on deep learning
 	•	Confidence-based output prevents premature conclusions
 	•	Designed to integrate with later stages safely
 
-	
+## Mermaid Diagram
+
+flowchart TD
+    A[User Input Text] --> B[Event Extraction]
+
+    B --> C[Event List]
+    C --> D[Temporal Ordering]
+
+    D --> E[Causal Candidate Generation]
+    E --> F[Causality Evaluation]
+
+    F --> G{Confidence >= Threshold?}
+
+    G -->|Yes| H[Confirmed Causal Relation]
+    G -->|No| I[Unconfirmed / Hypothesis]
+
+    H --> J[Causal Relation Output]
+    I --> J
+
+    J --> K[Next Stage Integration<br/>(Stage4 / Stage5)]
+
+## Meaning of diagram	
 	•	Extracts events from input text
 	•	Generates causal candidates based on temporal order
 	•	Evaluates causality using confidence scoring
