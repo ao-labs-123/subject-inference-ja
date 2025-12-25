@@ -7,3 +7,4 @@ It provides logic-based rules to help language models infer omitted subjects mor
 ### 📄 Documentation
 - [Stage 1 — Design (English)](docs/en/stage1_design.md)
 - Stage 2–5: Coming soon
+
