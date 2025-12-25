@@ -8,7 +8,7 @@ AI の誤読をシンプルなロジックで減らすことを目指してい�
 - [第1段階 改善案 (日本語)](docs/jp/stage1_design.md)
 - 第2〜5段階：近日公開
 
-## Languages / 言語
+## 言語
   - 🇯🇵 [日本語版]
   - 🇺🇸 [English version]
 
