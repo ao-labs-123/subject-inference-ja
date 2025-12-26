@@ -8,6 +8,7 @@ Instead of relying solely on particles or word order, the system interprets sent
 
 ## Problem
 Conventional dialogue systems often struggle with:
+
 	•	Omitted particles or ambiguous expressions
 	•	Sentences containing multiple nouns
 	•	Grammatically correct but semantically incorrect interpretations
@@ -20,7 +21,8 @@ Example:
 
 ## Proposed Improvement
 Rather than treating a sentence as a sequence of words, each noun is assigned a semantic role, such as:
-  •	Agent (actor)
+
+    •	Agent (actor)
  	•	Patient / Object
 	•	Recipient
 	•	Possessor
@@ -31,6 +33,7 @@ This allows the system to preserve structured relationships between entities, le
 ## Position of Stage 5
 
 After completing:
+
 	•	Stage 1: Misreading detection
 	•	Stage 2: Minimal clarification
 	•	Stage 3: Causal reasoning
