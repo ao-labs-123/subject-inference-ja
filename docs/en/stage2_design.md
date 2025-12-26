@@ -41,6 +41,7 @@ Reference Implementation (Python)
 This module implements Stage 2, which prevents premature interpretation when a sentence contains an omitted or ambiguous subject.
 
 Instead of inferring the most likely meaning, the system:
+
 	•	detects ambiguity,
 	•	defers interpretation,
 	•	and asks a minimal clarification question.
@@ -67,6 +68,7 @@ Instead of inferring the most likely meaning, the system:
 ## Extensibility
 
 This stage can be extended to:
+	
 	•	speech-to-text systems
 	•	TTS read-aloud disambiguation
 	•	safety-critical conversational agents
@@ -83,6 +85,7 @@ This stage can be extended to:
 ## License Notice
 
 This reference implementation is designed for:
+	
 	•	research
 	•	education
 	•	safety-oriented system design
