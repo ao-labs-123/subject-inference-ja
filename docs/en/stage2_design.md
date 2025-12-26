@@ -33,11 +33,9 @@ AI response:
 	•	More faithful understanding of user intent
 	•	Applicability to high-stakes domains such as healthcare, legal consultation, and fraud prevention
 
-
-Reference Implementation (Python)
+# Reference Implementation (Python)
 
 ## Overview
-
 This module implements Stage 2, which prevents premature interpretation when a sentence contains an omitted or ambiguous subject.
 
 Instead of inferring the most likely meaning, the system:
