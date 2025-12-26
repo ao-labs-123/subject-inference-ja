@@ -1,10 +1,10 @@
+# Stage 2: Clarification-Based Prevention of Misinterpretation
+
 Note:
 The clarification performed at this stage is not intended to advance semantic inference,
 but rather to prevent premature commitment to an incorrect interpretation.
 
 Detailed causal reasoning and syntactic analysis are handled in later stages.
-
-Stage 2: Clarification-Based Prevention of Misinterpretation
 
 ## Overview
 In this stage, when the subject of a sentence is omitted and cannot be uniquely identified from context,
