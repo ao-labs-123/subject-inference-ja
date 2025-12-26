@@ -1,6 +1,4 @@
-Example English Template — Step 1 (Subject Resolution)
-
-Title: Step 1 — Resolving First-Person Omitted Subjects in Dialogue AI
+# Stage1 — Resolving First-Person Omitted Subjects in Dialogue AI
 
 ## Overview:
 This step focuses on improving the AI’s ability to correctly interpret sentences where the first-person subject (“I”) is omitted.
