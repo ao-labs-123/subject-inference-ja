@@ -2,11 +2,11 @@
 段階的な文構造推定モデルを提案・設計する研究プロジェクトです。
 
 [Japanese]
-stage1:docs/jp/stage1_design.md
-stage2:docs/jp/stage2_design.md
-stage3:docs/jp/stage3_design.md
-stage4:docs/jp/stage4_design.md
-stage5:docs/jp/stage5_design.md
+stage1: docs/jp/stage1_design.md  - 主語省略問題の定義と前提整理  
+stage2: docs/jp/stage2_design.md  - 曖昧性検出と確認フェーズ  
+stage3: docs/jp/stage3_design.md  - 文脈制約による主語候補絞り込み  
+stage4: docs/jp/stage4_design.md  - 修飾構造を用いた関係推定  
+stage5: docs/jp/stage5_design.md  - 名詞間の格関係による意味補強
 
 [English]
 stage1:docs/en/stage1_design.md
