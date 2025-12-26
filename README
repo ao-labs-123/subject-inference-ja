@@ -1,11 +1,13 @@
 [Japanese]
-・docs/jp/stage1_design.md
-・docs/jp/stage2_design.md
-・docs/jp/stage3_design.md
-・docs/jp/stage4_design.md
+stage1:docs/jp/stage1_design.md
+stage2:docs/jp/stage2_design.md
+stage3:docs/jp/stage3_design.md
+stage4:docs/jp/stage4_design.md
+stage5:docs/jp/stage5_design.md
 
 [English]
-・docs/en/stage1_design.md
-・docs/en/stage2_design.md
-・docs/en/stage3_design.md
-・docs/en/stage4_design.md
+stage1:docs/en/stage1_design.md
+stage2:docs/en/stage2_design.md
+stage3:docs/en/stage3_design.md
+stage4:docs/en/stage4_design.md
+stage5:docs/en/stage5_design.md
