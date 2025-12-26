@@ -1,3 +1,6 @@
+本リポジトリは、日本語における「主語省略」による意味誤解を減らすための  
+段階的な文構造推定モデルを提案・設計する研究プロジェクトです。
+
 [Japanese]
 stage1:docs/jp/stage1_design.md
 stage2:docs/jp/stage2_design.md
