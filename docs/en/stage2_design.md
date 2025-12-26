@@ -88,10 +88,3 @@ This reference implementation is designed for:
 	•	safety-oriented system design
 
 Commercial usage should consider downstream responsibility handling.
-
-⸻
-
-このコードは 「実用最小構成」 です。
-	•	NLP 部分は意図的に未完成
-	•	重要なのは「推測しない制御フロー」
-	•	精度ではなく 誤読しない設計 を示すための実装
