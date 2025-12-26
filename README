@@ -14,3 +14,5 @@ stage2:docs/en/stage2_design.md
 stage3:docs/en/stage3_design.md
 stage4:docs/en/stage4_design.md
 stage5:docs/en/stage5_design.md
+
+本研究は、エンドツーエンド学習ではなく、論理的解釈可能性を重視します。
