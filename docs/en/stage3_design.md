@@ -20,6 +20,7 @@ User input:
 “I was late because the train stopped.”
 
 AI interpretation:
+	
 	•	Event A: Train stopped
 	•	Event B: User was late
 	•	Inferred causal relationship: A → B
