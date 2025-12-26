@@ -25,6 +25,7 @@ thereby reducing misinterpretation in human-AI interaction.
 ## Approach
 
 The system adopts a staged improvement model, including:
+	
 	•	Clarification of contextual assumptions
 	•	Minimal and strategic clarification questions
 	•	Causal relationship inference
