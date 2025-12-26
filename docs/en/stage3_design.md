@@ -1,4 +1,4 @@
-Stage 3: Contextual and Causal Inference
+# Stage 3: Contextual and Causal Inference
 
 ## Overview
 At this stage, the AI performs causal and contextual inference only after ambiguity in subject and reference has been resolved in earlier stages.
