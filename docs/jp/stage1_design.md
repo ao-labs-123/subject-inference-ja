@@ -1,4 +1,4 @@
-#Stage1：主語推定
+# Stage1：主語推定
 
 ## Subject Estimation Logic for Japanese (WIP)
 日本語の “主語が省略されやすい問題” を改善してみるプロジェクトです。
