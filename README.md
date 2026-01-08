@@ -14,4 +14,4 @@ stage3:docs/en/stage3_design.md
 stage4:docs/en/stage4_design.md
 stage5:docs/en/stage5_design.md
 
-本研究は、エンドツーエンド学習ではなく、論理的解釈可能性を重視します。
+各Stageは精度向上を目的とするだけでなく、AIの解釈過程を人間が追跡できるよう設計されています。
