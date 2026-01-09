@@ -6,11 +6,11 @@
 - [Approach](docs/jp/approach.md)
 
 ## Stages
-- [Stage 1: 基本的な文脈推定](docs/jp/stage1.md)
-- [Stage 2: 最小限の聞き返し](docs/jp/stage2.md)
-- [Stage 3: 因果関係推定](docs/jp/stage3.md)
-- [Stage 4: 修飾構造の理解](docs/jp/stage4.md)
-- [Stage 5: 名詞間の格関係推定](docs/jp/stage5.md)
+- [Stage 1: 基本的な文脈推定](docs/jp/stage1_design.md)
+- [Stage 2: 最小限の聞き返し](docs/jp/stage2_design.md)
+- [Stage 3: 因果関係推定](docs/jp/stage3_design.md)
+- [Stage 4: 修飾構造の理解](docs/jp/stage4_design.md)
+- [Stage 5: 名詞間の格関係推定](docs/jp/stage5_design.md)
 
 ## Evidence
 - [Demonstration via Chat UI](docs/jp/evidence.md)
