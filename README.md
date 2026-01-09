@@ -10,6 +10,9 @@
 - [Stage 4: 修飾構造の理解](docs/jp/stage4_design.md)
 - [Stage 5: 名詞間の格関係推定](docs/jp/stage5_design.md)
 
+## Comparison with Conventional AI
+
+
 ## Evidence
 - [Demonstration via Chat UI](https://github.com/ao-labs-123/subject-inference-demo)
 
