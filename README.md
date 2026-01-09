@@ -28,8 +28,16 @@
 
 ※ 本比較は「対話における文脈保持と解釈」を主眼としたものであり、生成品質や知識量の優劣を示すものではない。
 
-## Evidence
+
 - [Demonstration via Chat UI](https://github.com/ao-labs-123/subject-inference-demo)
+
+## Evidence / Demonstration
+
+本リポジトリでは、文脈推定システムの段階的な理解能力の変化を、
+例文および実証用デモを通して示す。
+
+- [例文ベースの実証](subject-inference-demo)
+- [インタラクティブデモ（Streamlit）](https://xxxx.streamlit.app)
 
 各Stageは精度向上を目的とするだけでなく、AIの解釈過程を人間が追跡できるよう設計されています。
 
