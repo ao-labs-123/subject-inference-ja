@@ -11,7 +11,7 @@
 - [Stage 5: 名詞間の格関係推定](docs/jp/stage5_design.md)
 
 ## Evidence
-- [Demonstration via Chat UI](docs/jp/evidence.md)
+- [Demonstration via Chat UI](https://github.com/ao-labs-123/subject-inference-demo)
 
 各Stageは精度向上を目的とするだけでなく、AIの解釈過程を人間が追跡できるよう設計されています。
 
