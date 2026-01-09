@@ -34,7 +34,7 @@
 例文および実証用デモを通して示す。
 
 - [例文ベースの実証](https://github.com/ao-labs-123/subject-inference-demo)
-- [インタラクティブデモ（Streamlit）](https://xxxx.streamlit.app)
+- [インタラクティブデモ（Streamlit）](https://humble-space-doodle-jjv7rrjw64g6cq699.github.dev/)
 
 各Stageは精度向上を目的とするだけでなく、AIの解釈過程を人間が追跡できるよう設計されています。
 
