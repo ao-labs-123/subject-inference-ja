@@ -1,18 +1,19 @@
 本プロジェクトは、対話AIが文をどのように解釈しているかを段階的に明示し、従来手法との違いを可視化することを目的としています。
 
-[Japanese]
-stage1: docs/jp/stage1_design.md  - 主語省略問題の定義と前提整理  
-stage2: docs/jp/stage2_design.md  - 曖昧性検出と確認フェーズ  
-stage3: docs/jp/stage3_design.md  - 文脈制約による主語候補絞り込み  
-stage4: docs/jp/stage4_design.md  - 修飾構造を用いた関係推定  
-stage5: docs/jp/stage5_design.md  - 名詞間の格関係による意味補強
+## Documentation
+- [Background](docs/jp/background.md)
+- [Objective](docs/jp/objective.md)
+- [Approach](docs/jp/approach.md)
 
-[English]
-stage1:docs/en/stage1_design.md
-stage2:docs/en/stage2_design.md
-stage3:docs/en/stage3_design.md
-stage4:docs/en/stage4_design.md
-stage5:docs/en/stage5_design.md
+## Stages
+- [Stage 1: 基本的な文脈推定](docs/jp/stage1.md)
+- [Stage 2: 最小限の聞き返し](docs/jp/stage2.md)
+- [Stage 3: 因果関係推定](docs/jp/stage3.md)
+- [Stage 4: 修飾構造の理解](docs/jp/stage4.md)
+- [Stage 5: 名詞間の格関係推定](docs/jp/stage5.md)
+
+## Evidence
+- [Demonstration via Chat UI](docs/jp/evidence.md)
 
 各Stageは精度向上を目的とするだけでなく、AIの解釈過程を人間が追跡できるよう設計されています。
 
