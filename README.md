@@ -12,7 +12,7 @@
 - [stage4:Modification Clarification](docs/en/stage4_design.md)
 - [stage5:Argument Mapping](docs/en/stage5_design.md)
 
-### Verification with `log.json`
+# Verification with `log.json`
 
 The output and intermediate state of each stage are recorded deterministically in [`log.json`](./log.json). This log serves as proof that the 5-stage inference operates through explainable logical compression without relying on heavy statistical predictions.
 
