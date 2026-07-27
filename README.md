@@ -4,7 +4,7 @@
 <img width="1620" height="562" alt="image" src="https://github.com/user-attachments/assets/8a3e59f5-8ada-443b-a11a-69a70c8484a8" />
 
 # The 5-Stage Logical Pipeline
-Our engine processes language through a bottom-up logical hierarchy:
+**Our engine processes language through a bottom-up logical hierarchy:**
 
 - [stage1:Subject Inference](docs/en/stage1_design.md)
 - [stage2:Clarification Request](docs/en/stage2_design.md)
