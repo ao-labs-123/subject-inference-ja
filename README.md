@@ -3,25 +3,6 @@
 
 <img width="1620" height="562" alt="image" src="https://github.com/user-attachments/assets/8a3e59f5-8ada-443b-a11a-69a70c8484a8" />
 
-
-## Core Philosophy
-Traditional AI relies on massive statistical models (LLMs) to predict the next word, often leading to "black box" decisions, high computational costs, and conversational misinterpretations. This project takes a different path: **Deterministic Logical Abstraction.**
-
-By codifying the structural and cognitive rules of language into a lightweight engine, we achieve human-level contextual reasoning with a fraction of the memory and processing power.
-
-## Key Pillars
-1. **Explainability (Transparent Reasoning)**:
-
-   Every inference step is driven by clear, rule-based logic. You can trace exactly why the AI interpreted a sentence a certain way.
-   
-2. **Extreme Efficiency**:
-
-   Our engine performs inference via logic, not massive matrix multiplication. It is designed to run on low-cost hardware, from home appliances to embedded systems.
-
-3. **Language Agnostic Structure**:
-
-   The logical core (Subject Inference, Semantic Categorization) is designed to be applicable across multiple languages, including Japanese and English.
-
 # The 5-Stage Logical Pipeline
 Our engine processes language through a bottom-up logical hierarchy:
 
@@ -40,6 +21,24 @@ Our engine avoids errors by using structural overrides instead of statistical we
 | "Thought it was strange, apparently." | Psychological Verb + Evidential Marker → [Override: 3rd Party] | AI identifies the agent as a 3rd party. |
 
 In the second case, the "Evidential Marker" (⁠apparently⁠) acts as a logical trigger to override the default speaker-centric perspective. This deterministic logic ensures precision that probabilistic models often miss.
+
+## Core Philosophy
+Traditional AI relies on massive statistical models (LLMs) to predict the next word, often leading to "black box" decisions, high computational costs, and conversational misinterpretations. This project takes a different path: **Deterministic Logical Abstraction.**
+
+By codifying the structural and cognitive rules of language into a lightweight engine, we achieve human-level contextual reasoning with a fraction of the memory and processing power.
+
+## Key Pillars
+1. **Explainability (Transparent Reasoning)**:
+
+   Every inference step is driven by clear, rule-based logic. You can trace exactly why the AI interpreted a sentence a certain way.
+   
+2. **Extreme Efficiency**:
+
+   Our engine performs inference via logic, not massive matrix multiplication. It is designed to run on low-cost hardware, from home appliances to embedded systems.
+
+3. **Language Agnostic Structure**:
+
+   The logical core (Subject Inference, Semantic Categorization) is designed to be applicable across multiple languages, including Japanese and English.
 
 
 ## Repository Structure
