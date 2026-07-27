@@ -16,7 +16,7 @@
 
 **The output and intermediate state of each stage are recorded deterministically in [`log.json`](data/log.json). This log serves as proof that the 5-stage inference operates through explainable logical compression without relying on heavy statistical predictions.**
 
-## Example: Logical Inference vs. Probabilistic Guessing
+# Example: Logical Inference vs. Probabilistic Guessing
 Our engine avoids errors by using structural overrides instead of statistical weightings.
 
 | Input | Logic Process | Result |
