@@ -7,7 +7,7 @@ This step functions as an intelligent fallback mechanism. When Stage 1's determi
 **1. Threshold-Based Trigger**:
 
 The system initiates a clarification request only when the confidence score for agent identification is low or when the syntax contains multiple, equally plausible subjects that cannot be resolved through linguistic patterns alone.
-* **Missing Core Markers:** A clarification request is strictly required when a sentence features **no explicit subject, no psychological verbs, and no evidential markers** (e.g., plain/ambiguous factual statements).
+**Missing Core Markers:** A clarification request is strictly required when a sentence features **no explicit subject, no psychological verbs, and no evidential markers** (e.g., plain/ambiguous factual statements).
 
 **2. Minimalist Intervention**:
 
@@ -16,6 +16,9 @@ To maintain natural flow, the inquiry is limited to the specific ambiguity. The 
 **3. Human-Centric Reliability**:
 
 By acknowledging that some sentences are genuinely ambiguous even to human listeners, this step prevents the AI from making inaccurate assumptions, thereby ensuring data integrity and user trust.
+
+##Note on Context Resolution:
+If the Agent remains ⁠Unknown⁠ at Stage 2, it will be logically inferred and resolved in the subsequent ⁠topological-mapper⁠ module using context, or queried via ⁠match-and-select⁠. This repository strictly focuses on structural Agent detection from the immediate input.
 
 ### Logic Comparison: Undetermined Agents
 
