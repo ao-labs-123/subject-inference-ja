@@ -17,7 +17,7 @@ To maintain natural flow, the inquiry is limited to the specific ambiguity. The 
 
 By acknowledging that some sentences are genuinely ambiguous even to human listeners, this step prevents the AI from making inaccurate assumptions, thereby ensuring data integrity and user trust.
 
-##Note on Context Resolution:
+## Note on Context Resolution:
 If the Agent remains ⁠Unknown⁠ at Stage 2, it will be logically inferred and resolved in the subsequent ⁠topological-mapper⁠ module using context, or queried via ⁠match-and-select⁠. This repository strictly focuses on structural Agent detection from the immediate input.
 
 ### Logic Comparison: Undetermined Agents
