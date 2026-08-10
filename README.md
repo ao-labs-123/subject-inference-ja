@@ -1,7 +1,8 @@
 # Current Phase: Input Parsing
 **At this stage, incoming text is captured and parsed into a lightweight, deterministic rule-based structure—bypassing heavy statistical prediction.**
 
-<img width="1620" height="562" alt="image" src="https://github.com/user-attachments/assets/8a3e59f5-8ada-443b-a11a-69a70c8484a8" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/966c99ca-9bb2-40c4-8681-e497923aaefb" />
+
 
 # The 5-Stage Logical Pipeline
 **Our engine processes language through a bottom-up logical hierarchy:**
