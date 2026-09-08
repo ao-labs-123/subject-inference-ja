@@ -1,7 +1,7 @@
 # Current Phase: Input Parsing
 **At this stage, incoming text is captured and parsed into a lightweight, deterministic rule-based structure—bypassing heavy statistical prediction.**
 
-<img width="1620" height="341" alt="image" src="https://github.com/user-attachments/assets/fd6efe81-aa38-40f8-9762-209f8348d05b" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/deed7563-35f4-4aa3-b43e-987082492a51" />
 
 
 
