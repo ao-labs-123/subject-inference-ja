@@ -1,8 +1,10 @@
 
 import json
+from pathlib import Path
 
 def get_lexicon():
-    with open('/workspaces/context-aware-inference-engine/src/lexicon/causality_markers.json', 'r') as f:
+    lexicon_path = Path(__file__).resolve().parent.parent / "lexicon" / "causality_markers.json"
+    with lexicon_path.open("r", encoding="utf-8") as f:
         causality_list = json.load(f)
     return causality_list
 

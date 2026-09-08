@@ -1,4 +1,7 @@
 import json
+from datetime import datetime
+from pathlib import Path
+
 from rules.stage1_rule import determine_explicit_subject
 from rules.stage1_rule import determine_subject
 from rules.stage2_rule import analyze_causality_and_ambiguity
@@ -16,7 +19,6 @@ def run_test(input_file):
     lexicon_data = get_lexicon()
     analyzer = LogicAnalyzer(lexicon_data)
 
-    # main.py のループ内
     for text in examples:
         explicit_status = determine_explicit_subject(text)
         
@@ -39,48 +41,36 @@ def run_test(input_file):
         log4 = analyzer.stage4_analyze(text, mod_res,log1)
         log5 = analyzer.stage5_analyze(text, mod_res,log1)
 
-        import os
+        log_entry = {
+            "timestamp": datetime.now().isoformat(),
+            "input": text,
+            "stage1": log1,
+            "stage2": log2,
+            "stage3": log3,
+            "stage4": log4,
+            "stage5": log5
+        }
 
-    from datetime import datetime
+        append_log_entry(log_entry)
 
-    # ループの最後で、保存用の構造化データを作る
-    log_entry = {
-        "timestamp": datetime.now().isoformat(),
-        "input": text,
-        "stage1": log1,
-        "stage2": log2,
-        "stage3": log3,
-        "stage4": log4,
-        "stage5": log5
-    }
-    
-    # data/log.json に追記するロジック
-    log_file_path = "data/log.json"
-    
-    # ディレクトリがない場合は自動作成
-    os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-    
-    # 既存のログを読み込む（ファイルがない、または空なら空リスト）
+
+def append_log_entry(log_entry):
+    log_file_path = Path(__file__).resolve().parent.parent / "data" / "log.json"
+    log_file_path.parent.mkdir(parents=True, exist_ok=True)
+
     existing_logs = []
-    if os.path.exists(log_file_path) and os.path.getsize(log_file_path) > 0:
+    if log_file_path.exists() and log_file_path.stat().st_size > 0:
         try:
-            with open(log_file_path, "r", encoding="utf-8") as f:
+            with log_file_path.open("r", encoding="utf-8") as f:
                 existing_logs = json.load(f)
         except json.JSONDecodeError:
             existing_logs = []
-            
-    # 新しいログを末尾に追加
+
     existing_logs.append(log_entry)
-    
-    # きれいに整形（indent=2）して保存
-    os.makedirs(os.path.dirname(log_file_path),exist_ok=True)
-    with open(log_file_path, "w", encoding="utf-8") as f:
-        json.dump(existing_logs, f, ensure_ascii=False,indent=4)
+    with log_file_path.open("w", encoding="utf-8") as f:
+        json.dump(existing_logs, f, ensure_ascii=False, indent=4)
         
 if __name__ == "__main__":
-    # 正しいデータファイルの場所を指定して実行
-    run_test('/workspaces/context-aware-inference-engine/data/examples/stage1_input.json')
-    run_test('/workspaces/context-aware-inference-engine/data/examples/stage2_input.json')
-    run_test('/workspaces/context-aware-inference-engine/data/examples/stage3_input.json')
-    run_test('/workspaces/context-aware-inference-engine/data/examples/stage4_input.json')
-    run_test('/workspaces/context-aware-inference-engine/data/examples/stage5_input.json')
+    examples_dir = Path(__file__).resolve().parent.parent / "data" / "examples"
+    for input_file in sorted(examples_dir.glob("stage*_input.json")):
+        run_test(input_file)

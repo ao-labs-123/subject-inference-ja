@@ -1,10 +1,12 @@
 import json
 import re
+from pathlib import Path
 
 def get_lexicon():
-    with open('/workspaces/context-aware-inference-engine/src/lexicon/psychological_verbs.json', 'r') as f:
+    lexicon_dir = Path(__file__).resolve().parent.parent / "lexicon"
+    with (lexicon_dir / "psychological_verbs.json").open("r", encoding="utf-8") as f:
         verbs = json.load(f)
-    with open('/workspaces/context-aware-inference-engine/src/lexicon/attribution_markers.json', 'r') as f:
+    with (lexicon_dir / "attribution_markers.json").open("r", encoding="utf-8") as f:
         markers = json.load(f)
     
     combined = {**verbs, **markers}
